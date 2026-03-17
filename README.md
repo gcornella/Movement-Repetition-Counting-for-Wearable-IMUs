@@ -1,5 +1,3 @@
-# Movement-Repetition-Counting-for-Wearable-IMUs
- ````markdown
 # Wearable Movement Repetition Counting Benchmark for Real-World IMU Data
 
 This repository showcases a **wearable sensing and movement algorithm pipeline** for turning raw **accelerometer and gyroscope time-series data** into robust **repetition counting metrics** across diverse real-world activities, an approach directly aligned with the kind of **movement intelligence, sensor algorithm development, and product-oriented validation** needed in next-generation wearable platforms.
