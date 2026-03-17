@@ -26,6 +26,30 @@ This repo is especially relevant for teams interested in:
 
 ---
 
+## Implementation Authorship
+
+All Python implementations in this repository were **fully developed and coded by the author**, based on methodologies described in the original research papers.
+
+While each method is inspired by prior work (e.g., RecoFit, FitCoach, MiLift, uLift, Shimmer, and others), the code in this repository is **not copied from existing implementations**. Instead, each algorithm was:
+
+* independently **reconstructed from the paper descriptions**
+* adapted for **cross-dataset benchmarking**
+* generalized to work with **different sampling rates, tasks, and sensor modalities**
+* implemented with a focus on **clarity, reproducibility, and real-world applicability**
+
+In many cases, the original papers do not provide complete implementation details. As a result, these implementations required:
+
+* **algorithmic interpretation and design decisions**
+* handling of **sensor noise, variability, and missing information**
+* adaptation for **task-agnostic use across heterogeneous datasets**
+
+This repository therefore reflects both:
+
+* **faithful methodological understanding of prior work**, and
+* **original engineering effort to make these methods comparable, scalable, and usable in practice**
+
+---
+
 ## Motivation
 
 Accurate repetition counting from wearable sensors remains difficult when algorithms are applied across datasets with different:
@@ -171,6 +195,7 @@ Examples from the codebase include:
 ### ODRA
 
 A key benchmark structure in this repository is **ODRA**, a combined container used to standardize evaluation across multiple repetition-counting datasets.
+https://drive.google.com/drive/folders/10dfytOfsVT-G_FWRjwbCT0Aa0sOKBKvt?usp=sharing
 
 ODRA stores:
 
