@@ -368,8 +368,8 @@ These tools help answer practical questions such as:
 Clone the repository:
 
 ```bash
-git clone <gcornella/Movement-Repetition-Counting-for-Wearable-IMUs>
-cd <gcornella/Movement-Repetition-Counting-for-Wearable-IMUs>
+git clone <https://github.com/gcornella/Movement-Repetition-Counting-for-Wearable-IMUs.git>
+cd <https://github.com/gcornella/Movement-Repetition-Counting-for-Wearable-IMUs.git>
 ```
 
 Install dependencies:
